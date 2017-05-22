@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <form action ='/users' method="Post">
+      <label>Your Name:<input type ="text" name='name'></label>
+      <label>
+          Dojo Location:
+          <select name="location">
+            <option value ="San Jose">San Jose</option>
+            <option value ="Los Angeles">Los Angeles</option>
+            <option value ="Seattle">Seattle</option>
+            <option value ="Chicago">Chicago</option>
+            <option value ="Dallas">Dallas</option>
+          </select>
+        </label>
+        <label>
+            Favorite Language:
+            <select name ="language">
+              <option value ="Ruby">Ruby</option>
+              <option value ="Python">Python</option>
+              <option value ="IOS">IOS</option>
+              <option value ="Mean">Mean</option>
+              <option value ="Javascript">Javascript</option>
+            </select>
+          </label>
+      <label>Comment(optional):<textarea name='comment'></textarea>
+      <input type = "submit" value="Submit">
+    </form>
+  </body>
+</html>
